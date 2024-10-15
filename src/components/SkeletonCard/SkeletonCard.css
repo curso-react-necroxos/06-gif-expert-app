@@ -1,0 +1,34 @@
+.skeleton-card {
+	width: 300px;
+	border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.skeleton-image {
+	width: 100%;
+	height: 200px;
+	background-color: #e0e0e0;
+	animation: pulse 1.5s infinite;
+}
+
+.skeleton-title {
+	width: 80%;
+	height: 20px;
+	margin: 16px auto;
+	background-color: #e0e0e0;
+	animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		background-color: #e0e0e0;
+	}
+	50% {
+		background-color: #d0d0d0;
+	}
+	100% {
+		background-color: #e0e0e0;
+	}
+}
