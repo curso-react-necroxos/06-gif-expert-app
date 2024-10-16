@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { GifItem } from './GifItem';
 
 import { useFetchGifs } from '../../hooks/useFetchGifs';
-import SkeletonCard from '../SkeletonCard/SkeletonCard';
+import { SkeletonCard } from '../SkeletonCard/SkeletonCard';
 
 export const GifGrid = ({ category }) => {
 	const { images, isLoading } = useFetchGifs(category);

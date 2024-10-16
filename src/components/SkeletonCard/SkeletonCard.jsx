@@ -1,6 +1,6 @@
 import './SkeletonCard.css';
 
-const SkeletonCard = () => {
+export const SkeletonCard = () => {
 	return (
 		<div className="skeleton-card">
 			<div className="skeleton-image"></div>
@@ -8,5 +8,3 @@ const SkeletonCard = () => {
 		</div>
 	);
 };
-
-export default SkeletonCard;
