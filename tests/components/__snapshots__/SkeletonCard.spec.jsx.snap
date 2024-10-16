@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkeletonCard should match to snapshot 1`] = `
+<div>
+  <div
+    class="skeleton-card"
+  >
+    <div
+      class="skeleton-image"
+    />
+    <div
+      class="skeleton-title"
+    />
+  </div>
+</div>
+`;
